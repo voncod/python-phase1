@@ -35,7 +35,7 @@ O projeto simula uma tarefa simples de inventário e geração de relatórios de
 
 1. Clone o repositório:
 
-```bash
+```
 git clone <url-do-repositorio>
 cd <nome-do-repositorio>
 ```
