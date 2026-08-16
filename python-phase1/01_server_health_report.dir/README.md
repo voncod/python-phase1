@@ -32,12 +32,15 @@ The project simulates a simple infrastructure inventory/reporting task, using Py
 git clone https://github.com/voncod/python-phase1/new/main/python-phase1/01_server_health_report.dir
 cd python-phase1
 ```
-
-2. Run the script:
+2. Navigate to the project directory:
+```
+cd 01_server_health_report.dir
+```
+3. Run the script:
 ```
 python server_report.py
 ```
-3. The generated report will be saved as:
+4. The generated report will be saved as:
 ```
 report.json
 ```
