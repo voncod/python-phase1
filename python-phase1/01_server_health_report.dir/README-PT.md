@@ -43,7 +43,8 @@ python server_report.py
 report.json
 ```
 ## Exemplo de Saída
-```{
+```
+{
     "total_servers": 6,
     "online_servers": 4,
     "offline_servers": 2,
