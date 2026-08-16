@@ -40,7 +40,7 @@ cd python-phase1
 ```
 2. Acesse o diretório do projeto:
 ```
-cd 02-api-health-monitor
+cd 02_api_monitor.dir
 ```
 3. Instale as dependências necessárias:
 ```
