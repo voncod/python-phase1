@@ -1,0 +1,37 @@
+{
+    "total_servers": 6,
+    "online_servers": 4,
+    "offline_servers": 2,
+    "by_environment": {
+        "prod": 4,
+        "dev": 2
+    },
+    "online_servers_list": [
+        {
+            "name": "web-01",
+            "environment": "prod"
+        },
+        {
+            "name": "db-01",
+            "environment": "prod"
+        },
+        {
+            "name": "cache-01",
+            "environment": "dev"
+        },
+        {
+            "name": "api-01",
+            "environment": "prod"
+        }
+    ],
+    "attention_requeired_list": [
+        {
+            "name": "web-02",
+            "reason": "offline"
+        },
+        {
+            "name": "worker-01",
+            "reason": "offline"
+        }
+    ]
+}

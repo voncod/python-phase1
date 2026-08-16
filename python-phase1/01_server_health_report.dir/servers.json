@@ -1,0 +1,38 @@
+[
+    {
+        "name": "web-01",
+        "status": "online",
+        "environment": "prod",
+        "port": 80
+    },
+    {
+        "name": "web-02",
+        "status": "offline",
+        "environment": "prod",
+        "port": 8080
+    },
+    {
+        "name": "db-01",
+        "status": "online",
+        "environment": "prod",
+        "port": 5432
+    },
+    {
+        "name": "cache-01",
+        "status": "online",
+        "environment": "dev",
+        "port": 6379
+    },
+    {
+        "name": "api-01",
+        "status": "online",
+        "environment": "prod",
+        "port": 8080
+    },
+    {
+        "name": "worker-01",
+        "status": "offline",
+        "environment": "dev",
+        "port": 9000
+    }
+]

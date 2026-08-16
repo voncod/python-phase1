@@ -1,0 +1,6 @@
+{
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "healthy",
+    "http_status": 200,
+    "items_received": 100
+}
