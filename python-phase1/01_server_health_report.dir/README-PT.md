@@ -27,18 +27,19 @@ O projeto simula uma tarefa simples de inventário e geração de relatórios de
 
 ## Como Usar
 1. Clone o repositório:
-
 ```
 git clone https://github.com/voncod/python-phase1/new/main/python-phase1/01_server_health_report.dir
 cd python-phase1
 ```
-
-2. Execute o script:
+2. Acesse o diretório do projeto:
+```
+cd 01_server_health_report.dir
+```
+3. Execute o script:
 ```
 python server_report.py
 ```
-
-3. O relatório gerado será salvo como:
+4. O relatório gerado será salvo como:
 ```
 report.json
 ```
