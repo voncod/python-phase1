@@ -29,8 +29,8 @@ The project simulates a simple infrastructure inventory/reporting task, using Py
 
 1. Clone the repository:
 ```
-git clone <url-do-repositorio>
-cd <nome-do-repositorio>
+git clone https://github.com/voncod/python-phase1/new/main/python-phase1/01_server_health_report.dir
+cd python-phase1
 ```
 
 2. Run the script:
