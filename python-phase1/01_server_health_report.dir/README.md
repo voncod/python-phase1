@@ -1,39 +1,33 @@
+# Server Health Report
 
----
+## Objective
 
-# README-PT.md — Português
+This project was developed to practice Python fundamentals by processing structured server data and generating a health report in JSON format.
 
-```markdown
-# Relatório de Saúde de Servidores
+The project simulates a simple infrastructure inventory/reporting task, using Python to analyze server status and environments.
 
-## Objetivo
+## What the Script Does
 
-Este projeto foi desenvolvido para praticar fundamentos de Python através do processamento de dados estruturados de servidores e da geração de um relatório de saúde em formato JSON.
+- Reads server data from a `servers.json` file.
+- Counts the total number of servers.
+- Counts online and offline servers.
+- Groups servers by environment (`prod`, `dev`, etc.).
+- Creates a list of online servers with their name and environment.
+- Creates an attention list for offline servers.
+- Generates a structured health report.
+- Saves the final report to `report.json`.
 
-O projeto simula uma tarefa simples de inventário e geração de relatórios de infraestrutura, utilizando Python para analisar o status e os ambientes dos servidores.
-
-## O que o Script faz
-
-- Lê os dados dos servidores a partir do arquivo `servers.json`.
-- Conta o número total de servidores.
-- Conta os servidores online e offline.
-- Agrupa os servidores por ambiente (`prod`, `dev`, etc.).
-- Cria uma lista de servidores online contendo nome e ambiente.
-- Cria uma lista de servidores que requerem atenção.
-- Gera um relatório estruturado de saúde dos servidores.
-- Salva o relatório final no arquivo `report.json`.
-
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Python
 - JSON
-- Manipulação de arquivos
-- Listas e dicionários
+- File handling
+- Lists and dictionaries
 - Git & GitHub
 
-## Como Usar
+## How to Use
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```
 git clone <url-do-repositorio>
